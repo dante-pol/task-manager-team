@@ -8,3 +8,6 @@ def search(text, target):
             print('True')
         else:
             print('False')
+
+def length(text):
+    print(len(text))
