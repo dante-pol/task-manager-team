@@ -1,13 +1,15 @@
-text = 'Новый год'
-target = input('Введите символ для поиска >> ')
-
+#Функция по поиску символа в строке
 
 def search(text, target):
     for i in range(len(text)):
         if text[i] == target:
-            print('True')
+            result = 'True'
         else:
-            print('False')
+            result = 'False'
+    return result
+
+#Функция по выводу длины введенной строки
 
 def length(text):
     print(len(text))
+
