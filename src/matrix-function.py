@@ -3,7 +3,7 @@ def sum_matrix(matrix1: list[list[int]], matrix2: list[list[int]]) -> list[list[
 
     :param matrix1:матрица которая хранит в себе целые числа
     :param matrix2:матрица которая хранит в себе целые числа
-    :return:
+    :return: должна возвращать матрицу с суммой каждых i-ых элементов 2 матриц
     '''
     matrix3 = []
     if len(matrix1) != len(matrix2):
@@ -23,7 +23,7 @@ def diff_matrix(matrix1: list[list[int]], matrix2: list[list[int]]) -> list[list
 
     :param matrix1:матрица которая хранит в себе целые числа
     :param matrix2:матрица которая хранит в себе целые числа
-    :return:
+    :return: должна возвращать матрицу с разностью каждых i-ых элементов 2 матриц
     '''
     matrix3 = []
     if len(matrix1) != len(matrix2):
@@ -43,7 +43,7 @@ def prod_matrix(matrix1: list[list[int]], number: int) -> list[list[int]]:
 
     :param matrix1:матрица которая хранит в себе целые числа
     :param number:целое число
-    :return:
+    :return:должна возвращать матрицу в которой кождый элемент перемножен на number
     '''
     matrix3 = []
     for i in range(len(matrix1)):
